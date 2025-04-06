@@ -1,0 +1,60 @@
+{
+    "header": {
+        "Aboutus": "Biz haqimizda",
+        "Courses": "Kurslar",
+        "Career": "Karyera",
+        "Feedback": "Fikr-mulohaza",
+        "Branches": "Filiallar"
+    },
+    "main": {
+        "learn": "Ingliz tilini qayerda va qanday qilib o'rganish oson va sodda bo'ladi?",
+        "learn2": "O'n minglab talabalar allaqachon ajoyib natijalarga erishmoqdalar. Ular hatto boshlang'ich bosqichlarda ham ingliz tilida gapira boshlaydilar. Agar ular buni qila olishgan bo'lsa, siz ham qila olasiz!",
+        "card_btn": "Ro'yxatdan o'ting yoki Kirish"
+    },
+    "learn": {
+        "h1_learn": "Sohil Oilaviy Dam Olish Maskanidagi Taomlar Ro'yxati:",
+        "skill": "O'z fikringizni ishonch bilan, har bir harf bilan, minimal yoki hech qanday aksentsiz gapirish",
+        "skill2": "Har kuni yangi so'zlarni lug'atingizga qo'shasiz",
+        "skill3": "Har kuni yangi so'zlar lug'atingizga qo'shiladi",
+        "skill4": "So'zlarni har soatda takrorlash odatini qanday o'zlashtirish",
+        "skill5": "Siz har kuni yangi so'zlarni lug'atingizga qo'shasiz.",
+        "skill6": "Siz har kuni yangi so'zlarni lug'atingizga qo'shasiz."
+    },
+    "teachers": {
+        "ourteacher": "Bizning o'qituvchilarimiz",
+        "lan": "Rus tili",
+        "lan2": "Ingliz tili",
+        "lan3": "Rus tili",
+        "lan4": "Rus tili"
+    },
+    "Reviews": {
+        "Review": "Sharhlar",
+        "letter": "Shahardagi eng zo'r. Bunday narsani topish juda kam uchraydi",
+        "letter2": "Faqat 4 darsda ingliz tilida gapirishni o'rgandim",
+        "letter3": "Bu markaz sifatiga yaqin markazlarni hali topmadim",
+        "read": "To'liq o'qish"
+    },
+    "contact": {
+        "name": "Sizning ismingiz",
+        "number": "Telefon raqami",
+        "send": "YUBORISH",
+        "weak": "Dushanba ≻ Shanba",
+        "text_con": "Dars yozuvini bir nechta odam ishlatishi mumkinmi?",
+        "text_con2": "Yozuv faqat bitta odam uchun mo'ljallangan. Tarqatish taqiqlanadi.",
+        "text_con3": "Bo'lib to'lash mumkinmi?",
+        "text_con4": "Mumkin, lekin administratorning majburiy roziligi bilan.",
+        "text_con5": "Ish uchun qanday IELTS darajasi talab qilinadi?",
+        "text_con6": "Boshqalar bilan qulay muloqot qilish uchun kamida IELTS 6+ kerak.",
+        "text_con7": "Agar men imtihondan o'tmasam-chi?",
+        "text_con8": "O'qituvchingiz sizga qayta topshirish sanasini beradi. Agar siz bu imtihondan yana o'tmasangiz, keyingi to'lovgacha ta'lim to'xtatiladi."
+    },
+    "footer": {
+        "FAQ": "Savol-javoblar",
+        "Blog": "Blog",
+        "Agreement": "Foydalanuvchi shartnomasi",
+        "Settings": "Cookie sozlamalari",
+        "English": "Ingliz tili",
+        "Russian": "Rus tili",
+        "served": "Barcha huquqlar himoyalangan. NEW OXFORD 2024."
+    }
+}

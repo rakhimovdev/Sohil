@@ -1,0 +1,68 @@
+.About {
+    background-image: url(../../images/photo_2025-04-06_08-12-30.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    height: 90vh;
+}
+
+.main_about {
+    width: 80%;
+    margin: auto;
+    height: 70vh;
+    background-color: #00000059;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(80px);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.404);
+}
+
+.first_comment {
+    font-size: 70px;
+}
+
+.main_about button {
+    width: 350px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 30px 0 30px 0;
+    border: none;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.main_about button:hover {
+    border-radius: 0 30px 0 30px;
+}
+
+.main_about div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: -50px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.container img {
+    width: 30%;
+    border: 5px solid brown;
+}
+
+.nature {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.About_1 {}

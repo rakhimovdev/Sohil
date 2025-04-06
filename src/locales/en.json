@@ -1,0 +1,59 @@
+{
+    "header": {
+        "Aboutus": "",
+        "Courses": "Courses",
+        "Career": "Career",
+        "Feedback": "Feedback",
+        "Branches": "Branches"
+    },
+    "main": {
+        "learn": "How and where to learn English so that it's easy and simple?",
+        "learn2": "More than tens of thousands of students are already achieving stellar results. They start speaking English even at the beginner stages. If they could do it - you can too!",
+        "card_btn": "Sign up or Register"
+    },
+    "learn": {
+        "h1_learn": "With us, you will learn:",
+        "skill": "To speak confidently, articulately, with every letter, with minimal or no accent",
+        "skill2": "New words are added to your vocabulary every day",
+        "skill3": "New words are added to your vocabulary daily",
+        "skill4": "How to incorporate the habit of repeating words every hour",
+        "skill5": "You add new words to your vocabulary every day.",
+        "skill6": "You add new words to your vocabulary every day."
+    },
+    "teachers": {
+        "ourteacher": "Our teachers",
+        "lan": "Russian language",
+        "lan2": "English language",
+        "lan3": "Russian language",
+        "lan4": "Russian language"
+    },
+    "Reviews": {
+        "Review": "Reviews",
+        "letter": "Definitely the best in my city. It's rare to find something like this",
+        "letter2": "Learned to speak English literally in just 4 lessons",
+        "letter3": "I haven't found any centers yet that are close in quality to this one",
+        "read": "Read in full"
+    },
+    "contact": {
+        "name": "Your name",
+        "number": "Phone number",
+        "send": "SEND",
+        "weak": "Monday ≻ Saturdays",
+        "text_con": "Can multiple people use the lesson recording?",
+        "text_con2": "The recording is intended for one person's use only. Distribution is prohibited.",
+        "text_con3": "Can I pay in installments?",
+        "text_con4": "You can, but with mandatory approval from the administrator.",
+        "text_con5": "What level of IELTS is required for work?",
+        "text_con6": "You need at least IELTS 6+ to comfortably communicate with others.",
+        "text_con7": "What if I didn't pass the exam?",
+        "text_con8": "Your teacher will give you the date of the retake. If you fail this exam again, the training stops until the next payment."
+    },
+    "footer": {
+        "FAQ": "FAQ",
+        "Blog": "Blog",
+        "Agreement": "User Agreement",
+        "Settings": "Cookie Settings",
+        "English": "English language",
+        "Russian": "Russian language"
+    }
+}
