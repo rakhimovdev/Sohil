@@ -15,14 +15,13 @@ function Footer() {
             <div className="footer_main">
                 <div className="logo_footer">
                     {/* <img src={img1} alt="" /> */}
-                    <p>{translations.footer.served} </p>
+                    <h1>{translations.footer.served} </h1>
                     <div className="icons_footer">
-                        <BsTelegram />
-                        <BsInstagram />
-                        <SiYoutube />
+                        <a href="https://t.me/SOHIL_Oilaviy_dam_olish_maskani"><BsTelegram /></a>
+                        <a href="https://www.instagram.com/sohil_boyi_?igsh=am0wMHpzYWF2MGNi&utm_source=qr"><BsInstagram /></a>
                     </div>
                 </div>
-                <div className="nav_footer">
+                {/* <div className="nav_footer">
                     <p>{translations.header.Aboutus} </p>
                     <p>{translations.header.Courses}</p>
                     <p>{translations.header.Career}</p>
@@ -38,27 +37,11 @@ function Footer() {
                     <p>{translations.footer.English}</p>
                     <p>{translations.footer.Russian}</p>
                     <p>DTM</p>
-                </div>
+                </div> */}
 
             </div>
             <div className="footer_main1">
-                <div className="logo_footer">
-                    {/* <img src={img1} alt="" /> */}
-                </div>
-                <div className="mine">
-                    <p>About us</p>
-                    <p>Courses</p>
-                    <p>Career</p>
-                    <p>Branches</p>
-                    <p>FAQ</p>
-                    <p>Blog</p>
-                    <p>User Agreement</p>
-                    <p>Cookie Settings</p>
-                    <p>English language</p>
-                    <p>Russian language</p>
-                    <p>DTM</p>
-                </div>
-                <hr />
+
                 <div>
                     <p>All rights reserved. NEW OXFORD 2024.</p>
                     <div className="icons_footer">
