@@ -52,26 +52,26 @@ function Main() {
             <div className="learn">
                 <h1 className='h1_learn'>{translations.learn.h1_learn}</h1>
                 <div className="skills">
-                    <div>
+                    <div className='in_skills'>
                         <div className="skill">
-                            <img src={img1} alt="" />
+                            <img className='img_skill' src={img1} alt="" />
                         </div>
                         <div className="skill">
-                            <img src={img2} alt="" />
+                            <img className='img_skill' src={img2} alt="" />
                         </div>
                         <div className="skill">
-                            <img src={img3} alt="" />
+                            <img className='img_skill' src={img3} alt="" />
                         </div>
                     </div>
-                    <div>
+                    <div className='in_skills'>
                         <div className="skill">
-                            <img src={img1} alt="" />
+                            <img className='img_skill' src={img1} alt="" />
                         </div>
                         <div className="skill">
-                            <img src={img1} alt="" />
+                            <img className='img_skill' src={img1} alt="" />
                         </div>
                         <div className="skill">
-                            <img src={img1} alt="" />
+                            <img className='img_skill' src={img1} alt="" />
                         </div>
                     </div>
                 </div>

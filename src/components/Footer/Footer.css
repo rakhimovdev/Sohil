@@ -106,4 +106,12 @@
     hr {
         width: 100%;
     }
+
+    .icons_footer {
+        width: 200px;
+    }
+
+    .footer_main1 div h1 {
+        text-align: center;
+    }
 }

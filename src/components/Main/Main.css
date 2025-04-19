@@ -49,24 +49,36 @@
 }
 
 .skill {
-    width: 450px;
+    width: 400px;
+    height: 350px;
+    /* border: 2px solid red; */
     /* background-color: var(--secondary-color); */
     color: var(--text-color);
     display: flex;
+    padding: 10px;
+    background-color: #ffffff7a;
+    box-shadow: 0 0 10px 10px var(--border-color);
 }
 
-.skill img {
+.in_skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.img_skill {
     width: 415px;
     height: 250px;
     object-fit: cover;
+    margin: auto;
 }
 
-.skills div {
+/* .skills div {
     display: flex;
-    width: 100%;
     align-items: center;
     justify-content: space-around;
-}
+} */
 
 .skills {
     display: flex;
@@ -76,6 +88,7 @@
     gap: 15px;
     width: 90%;
     margin: auto;
+    height: 70vh;
 }
 
 .main_icon1 {
@@ -206,6 +219,8 @@
     justify-content: space-around;
     background-color: var(--secondary-color);
     border-radius: 15px;
+    border: 2px solid red;
+    margin-top: 200px;
 }
 
 .text_contact {
@@ -461,9 +476,19 @@ button {
     .skills {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 95%;
         margin: auto;
+        border: 2px solid red;
     }
+
+    .skills div {
+        flex-direction: column;
+    }
+
+    .skills div img {
+        width: 90%;
+    }
+
 
     .skill {
         margin: auto;

@@ -43,7 +43,7 @@ function Footer() {
             <div className="footer_main1">
 
                 <div>
-                    <p>All rights reserved. NEW OXFORD 2024.</p>
+                    <h1>Sohil</h1>
                     <div className="icons_footer">
                         <BsTelegram />
                         <BsInstagram />

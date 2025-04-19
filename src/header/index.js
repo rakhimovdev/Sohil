@@ -32,12 +32,12 @@ const Headermain = () => {
                     </div>
                     <ul className='nav_ul'>
                         <li>
-                            <a href="/about">{translations.header.Aboutus}</a>
+                            <a href="/about">Biz Haqimizda</a>
                         </li>
                         <li>
-                            <a href="#">{translations.header.Courses}</a>
+                            <a href="#">Menu</a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="#">Career</a>
                         </li>
                         <li>
@@ -45,8 +45,8 @@ const Headermain = () => {
                         </li>
                         <li>
                             <a href="#">Branches</a>
-                        </li>
-                        <LanguageSwitcher />
+                        </li> */}
+                        {/* <LanguageSwitcher /> */}
                         <div className="d-flex align-items-center justify-content-between">
                             <Link className="navbar-brand nav_ac" to="/"></Link>
                             <div className="d-flex align-items-center">

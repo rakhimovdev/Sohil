@@ -91,6 +91,11 @@ select {
     align-items: center;
 }
 
+a:hover {
+    border-bottom: 4px solid red;
+    transition: .5s;
+}
+
 .translate1 p {
     font-size: 18px;
 }
@@ -105,8 +110,16 @@ select {
         height: 31px;
     }
 
-    .nav_ul li {
+    /* .nav_ul li {
         display: none;
+    } */
+
+    .nav_ul li a {
+        font-size: 15px;
+    }
+
+    .nav {
+        width: 80%;
     }
 
 }
