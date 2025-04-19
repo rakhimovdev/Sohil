@@ -11,6 +11,7 @@ import { Provider } from 'react-redux';
 import { store } from './store';
 import About from './pages/Aboutus/About';
 import Bron from './pages/Bron/Bron';
+import Footer from './components/Footer/Footer';
 
 function _ScrollToTop(props) {
     const { pathname } = useLocation();
@@ -33,6 +34,7 @@ root.render(
                         <Route path='/about' element={<About />} />
                         <Route path='/bron' element={<Bron />} />
                     </Routes>
+                    <Footer />
                 </ScrollToTop>
             </BrowserRouter>
         </Provider>

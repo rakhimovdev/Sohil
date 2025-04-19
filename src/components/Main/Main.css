@@ -1,10 +1,16 @@
 .card {
     width: 100%;
     height: 94vh;
-    background-image: url(../../images/ss.jpg);
+    /* background-image: url(../../images/ss.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     /* background-image: url(../../images/Mask\ group.png); */
+}
+
+.background_img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
 }
 
 .card_in {
@@ -48,13 +54,15 @@
     font-size: 50px;
 }
 
+
 .skill {
-    width: 400px;
+    width: 415px;
     height: 350px;
+    display: flex;
+    flex-direction: column;
     /* border: 2px solid red; */
     /* background-color: var(--secondary-color); */
     color: var(--text-color);
-    display: flex;
     padding: 10px;
     background-color: #ffffff7a;
     box-shadow: 0 0 10px 10px var(--border-color);
@@ -81,14 +89,23 @@
 } */
 
 .skills {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: column;
-    gap: 15px;
-    width: 90%;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    width: 80%;
     margin: auto;
     height: 70vh;
+}
+
+.skill {
+    margin: auto;
 }
 
 .main_icon1 {
@@ -157,7 +174,7 @@
 .person_div {
     width: 380px;
     height: 120px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -219,8 +236,8 @@
     justify-content: space-around;
     background-color: var(--secondary-color);
     border-radius: 15px;
-    border: 2px solid red;
-    margin-top: 200px;
+    /* border: 2px solid red; */
+    margin-top: 300px;
 }
 
 .text_contact {
@@ -474,24 +491,30 @@ button {
     }
 
     .skills {
+        /* display: grid;
+        grid-template-columns: repeat(1fr); */
         display: flex;
         flex-direction: column;
         width: 95%;
         margin: auto;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
 
     .skills div {
         flex-direction: column;
+        border: 2px solid black;
+        width: 300px;
     }
 
     .skills div img {
         width: 90%;
+        margin: auto;
     }
 
 
     .skill {
         margin: auto;
+        height: 500px;
     }
 
     .teacher {
@@ -565,5 +588,17 @@ button {
 
     .contact_btn {
         width: 360px;
+    }
+
+    .contact {
+        margin-top: 1400px;
+    }
+
+    .card {
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        /* height: 600px; */
+        object-fit: cover;
     }
 }

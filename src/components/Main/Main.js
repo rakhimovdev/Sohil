@@ -5,6 +5,7 @@ import { selectTranslations } from '../../slices/languageSlices';
 import img1 from '../../images/osh.jpg';
 import img2 from '../../images/qozon.jpg';
 import img3 from '../../images/shashlik_iz_mramornoi_govyadini-279336.webp';
+import img4 from '../../images/ss.jpg'
 // import img4 from '../../images/Rectangle 6 (2).png';
 // import img5 from '../../images/Rectangle 6 (3).png';
 // import img6 from '../../images/Rectangle 10.png';
@@ -48,32 +49,39 @@ function Main() {
     return (
         <div>
             <div className="card">
+                <img className='background_img' src={img4} alt="" />
             </div>
             <div className="learn">
                 <h1 className='h1_learn'>{translations.learn.h1_learn}</h1>
                 <div className="skills">
-                    <div className='in_skills'>
-                        <div className="skill">
-                            <img className='img_skill' src={img1} alt="" />
-                        </div>
-                        <div className="skill">
-                            <img className='img_skill' src={img2} alt="" />
-                        </div>
-                        <div className="skill">
-                            <img className='img_skill' src={img3} alt="" />
-                        </div>
+                    {/* <div className='in_skills'> */}
+                    <div className="skill">
+                        <img className='img_skill' src={img1} alt="" />
+                        1
                     </div>
-                    <div className='in_skills'>
-                        <div className="skill">
-                            <img className='img_skill' src={img1} alt="" />
-                        </div>
-                        <div className="skill">
-                            <img className='img_skill' src={img1} alt="" />
-                        </div>
-                        <div className="skill">
-                            <img className='img_skill' src={img1} alt="" />
-                        </div>
+                    <div className="skill">
+                        <img className='img_skill' src={img2} alt="" />
+                        2
                     </div>
+                    <div className="skill">
+                        <img className='img_skill' src={img3} alt="" />
+                        3
+                    </div>
+                    {/* </div> */}
+                    {/* <div className='in_skills'> */}
+                    <div className="skill">
+                        <img className='img_skill' src={img1} alt="" />
+                        4
+                    </div>
+                    <div className="skill">
+                        <img className='img_skill' src={img1} alt="" />
+                        5
+                    </div>
+                    <div className="skill">
+                        <img className='img_skill' src={img1} alt="" />
+                        6
+                    </div>
+                    {/* </div> */}
                 </div>
             </div>
 
