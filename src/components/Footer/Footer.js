@@ -42,12 +42,11 @@ function Footer() {
             </div>
             <div className="footer_main1">
 
-                <div>
+                <div className='footer_main2'>
                     <h1>Sohil</h1>
-                    <div className="icons_footer">
-                        <BsTelegram />
-                        <BsInstagram />
-                        <SiYoutube />
+                    <div className="">
+                        <a href="https://t.me/SOHIL_Oilaviy_dam_olish_maskani"><BsTelegram /></a>
+                        <a href="https://www.instagram.com/sohil_boyi_?igsh=am0wMHpzYWF2MGNi&utm_source=qr"><BsInstagram /></a>
                     </div>
                 </div>
             </div>
