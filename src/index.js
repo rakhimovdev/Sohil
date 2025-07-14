@@ -12,6 +12,7 @@ import { store } from './store';
 import About from './pages/Aboutus/About';
 import Bron from './pages/Bron/Bron';
 import Footer from './components/Footer/Footer';
+import Upload from './components/Upload/Upload'
 
 function _ScrollToTop(props) {
     const { pathname } = useLocation();
@@ -33,6 +34,7 @@ root.render(
                         <Route path='/' element={<App />} />
                         <Route path='/about' element={<About />} />
                         <Route path='/bron' element={<Bron />} />
+                        <Route path='/upload' element={<Upload/>}/>
                     </Routes>
                     <Footer />
                 </ScrollToTop>

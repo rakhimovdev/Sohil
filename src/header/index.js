@@ -37,6 +37,9 @@ const Headermain = () => {
                         <li>
                             <a href="#">Menu</a>
                         </li>
+                        <li>
+                            <a href="/upload">Upload images</a>
+                        </li>
                         {/* <li>
                             <a href="#">Career</a>
                         </li>

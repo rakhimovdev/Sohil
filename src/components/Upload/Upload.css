@@ -1,0 +1,136 @@
+.main_upload {
+    width: 1000px;
+    max-height: 600px;
+    border: 5px solid #adadad;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(10px);
+    overflow-y: scroll;
+    box-shadow: 0 5px 10px darkgray;
+    padding-bottom: 40px;
+    /* Orani kengaytirdik */
+    margin-top: 20px;
+}
+
+.send {
+    text-align: center;
+    height: 150px;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    box-shadow: 0 2px 20px;
+    border-radius: 10px;
+}
+
+.send div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.send div button {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #3b82f6;
+    font-weight: bold;
+    color: #ffff;
+    transition: .3s;
+    margin-top: 10px;
+}
+
+.send div button:hover {
+    background-color: #2563eb;
+}
+
+.custom-file {
+    padding: 8px;
+    border: none;
+    border-radius: 999px;
+    background-color: #eef4ff;
+    font-weight: bold;
+    color: #1d4ed8;
+    font-family: sans-serif;
+}
+
+/* Bu tugmaning o'zini style qiladi */
+.custom-file::-webkit-file-upload-button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.custom-file::-webkit-file-upload-button:hover {
+    background-color: #2563eb;
+}
+
+.uploaded_images {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border: 2px solid #ccc;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.card ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 95%;
+    grid-gap: 10px;
+    padding: 0;
+    margin: auto;
+}
+
+.card ul li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 20px;
+    /* Pastki oraliq qo‘shildi */
+}
+
+.delete_btn {
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: darkgrey;
+}
+
+.delete_btn:hover {
+    background-color: red;
+}
+
+@media (max-width: 450px) {
+    .send {
+        width: 400px;
+    }
+
+    .send div {
+        flex-direction: column;
+    }
+
+    .send div button {
+        margin-top: 10px;
+    }
+
+    .card ul {
+        grid-template-columns: 1fr;
+    }
+}
