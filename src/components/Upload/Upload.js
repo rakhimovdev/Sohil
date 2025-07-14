@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import "./Upload.css"
+import Api from '../../Api/Axios';
+import "./Upload.css";
 
 function App() {
   const [file, setFile] = useState(null);
@@ -16,22 +16,33 @@ function App() {
     const formData = new FormData();
     formData.append('file', file);
 
-    await axios.post('http://localhost:5000/upload', formData);
-    fetchFiles();
+    try {
+      await Api.post('/upload', formData);
+      fetchFiles();
 
-    // 🔽 Faylni tozalash (input va state)
-    setFile(null);
-    document.querySelector('.custom-file').value = null;
+      setFile(null);
+      document.querySelector('.custom-file').value = null;
+    } catch (err) {
+      console.error("Yuklashda xatolik:", err);
+    }
   };
 
   const fetchFiles = async () => {
-    const res = await axios.get('http://localhost:5000/files');
-    setFiles(res.data);
+    try {
+      const res = await Api.get('/files');
+      setFiles(res.data);
+    } catch (err) {
+      console.error("Fayllarni olishda xatolik:", err);
+    }
   };
 
   const handleDelete = async (id) => {
-    await axios.delete(`http://localhost:5000/delete/${id}`);
-    fetchFiles();
+    try {
+      await Api.delete(`/delete/${id}`);
+      fetchFiles();
+    } catch (err) {
+      console.error("O‘chirishda xatolik:", err);
+    }
   };
 
   useEffect(() => {
@@ -58,7 +69,7 @@ function App() {
             {files.map(file => (
               <li key={file._id}>
                 <img
-                  src={`http://localhost:5000/${file.path}`}
+                  src={`https://sohil-backend-1.onrender.com/${file.path}`}
                   className='uploaded_images'
                   alt={file.filename}
                 />
